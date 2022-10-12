@@ -12,11 +12,11 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
-    environment: production
+#    environment: production
 
-    defaults:
-      run:
-        shell: bash
+#    defaults:
+#      run:
+#        shell: bash
 
     steps:
     - name: Checkout
